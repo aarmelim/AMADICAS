@@ -1,6 +1,6 @@
 <?php require_once("conexao\conexao.php")?>
 
-<?php
+<?php 
 
 	$livros = "SELECT livroID, titulo, descricao_resumida, autorID, imagem_pequena, imagem_grande ";
 	$livros .="FROM livros";
