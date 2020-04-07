@@ -158,7 +158,7 @@
 			<!-- Start Subscription Area -->
 			
 			<!-- End Subscription Area -->
-
+			<?php require_once("section_subscription.php"); ?>
 			<!-- Start Contact Form -->
 			<?php require_once("contact_form.php"); ?>
 			<!-- End Contact Form -->
