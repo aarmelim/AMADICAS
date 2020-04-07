@@ -1,4 +1,4 @@
-<?php require_once("conexao/conexao.php"); ?>
+<?php require_once("conexao\conexao.php")?>
 
 <section class="subscription-area">
 	<div class="container">
@@ -26,6 +26,26 @@
 <script>
 	$('#email-subscription').submit(function(e) {
 		e.preventDefault();
-		alert("Teste")
+		var formulario = $(this).serialize();
+		var retorno = inserirEmail(formulario);
 	})
+
+	function inserirEmail(dados){
+		$.ajax({
+			type : "POST",
+			data : dados,
+			url  : "inserir_email.php",
+			async: false,
+		}).then (sucesso, falha);
+
+		function sucesso(data){
+			console.log(data);
+		}
+
+		function falha(data){
+			console.log("erro");
+		}
+
+	}
+
 </script>

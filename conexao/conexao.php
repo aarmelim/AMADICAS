@@ -14,7 +14,9 @@
     // $conecta_prod = mysqli_connect($servidor_prod,$usuario_prod,$senha_prod,$banco_prod);
 
     // Passo 2 - Testar conexão
-    if (!$conecta) {
-        die ("Não foi possível conectar ao banco MySQL"); 
-        }
+    if ($conecta) {
+        echo ("Conectou");
+    } else {
+        die ("Não foi possível conectar ao banco MySQL");
+    }
 ?>
