@@ -10,12 +10,15 @@
         $inserir  .= "VALUES ";
         $inserir  .= "('$email')";
 
+        $retorno = array();
         $operacao_insercao = mysqli_query ($conecta, $inserir);
 
         if($operacao_insercao){
-            echo ("Inclusão OK !!");
+            $retorno["sucesso"] = true;
+            $retorno["mensagem"] = "Email cadastrado com sucesso. Em breve entrarei em contato.";
         } else {
-            echo ("Inclusão falhou !!");
+            $retorno["sucesso"] = false;
+            $retorno["mensagem"] = "Houve um erro. Tente mais tarde !!";
         }
     }
 

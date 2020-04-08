@@ -1,4 +1,4 @@
-<?php require_once("conexao\conexao.php")?>
+<?php require_once("conexao\conexao.php") ?>
 
 <section class="subscription-area">
 	<div class="container">
@@ -15,6 +15,7 @@
 						<input type="email" name="email" placeholder="Seu email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu email'" required>
 						<button name="enviar" class="primary-btn hover d-inline-flex align-items-center"><span class="mr-10">Enviar</span><span class="lnr lnr-arrow-right"></span></button>
 						<div class="info"></div>
+						<div id="mensagem"></div>
 					</form>
 				</div>
 			</div>
@@ -26,26 +27,27 @@
 <script>
 	$('#email-subscription').submit(function(e) {
 		e.preventDefault();
-		var formulario = $(this).serialize();
+		var formulario = $(this);
 		var retorno = inserirEmail(formulario);
 	})
 
-	function inserirEmail(dados){
+	function inserirEmail(dados) {
 		$.ajax({
-			type : "POST",
-			data : dados,
-			url  : "inserir_email.php",
+			type: "POST",
+			data: dados.serialize(),
+			url: "inserir_email.php",
 			async: false,
-		}).then (sucesso, falha);
+			success: function(data){
+				$sucesso = $.parseJSON(data)["sucesso"];
+				$mensagem = $.parseJSON(data)["mensagem"];
+				$('#mensagem').show();
 
-		function sucesso(data){
-			console.log(data);
-		}
-
-		function falha(data){
-			console.log("erro");
-		}
-
+				if ($sucesso) {
+					$('#mensagem').html($mensagem);
+				} else {
+					$('#mensagem').html($mensagem);
+				}
+			}
+		});
 	}
-
 </script>
