@@ -1,5 +1,3 @@
-<?php require_once("conexao\conexao.php") ?>
-
 <section class="subscription-area">
 	<div class="container">
 		<div class="row align-items-center">
@@ -15,39 +13,10 @@
 						<input type="email" name="email" placeholder="Seu email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Seu email'" required>
 						<button name="enviar" class="primary-btn hover d-inline-flex align-items-center"><span class="mr-10">Enviar</span><span class="lnr lnr-arrow-right"></span></button>
 						<div class="info"></div>
-						<div id="mensagem"></div>
 					</form>
 				</div>
+				<div id="mensagem"></div>
 			</div>
 		</div>
 	</div>
 </section>
-
-<script src="js/vendor/jquery.js"></script>
-<script>
-	$('#email-subscription').submit(function(e) {
-		e.preventDefault();
-		var formulario = $(this);
-		var retorno = inserirEmail(formulario);
-	})
-
-	function inserirEmail(dados) {
-		$.ajax({
-			type: "POST",
-			data: dados.serialize(),
-			url: "inserir_email.php",
-			async: false,
-			success: function(data){
-				$sucesso = $.parseJSON(data)["sucesso"];
-				$mensagem = $.parseJSON(data)["mensagem"];
-				$('#mensagem').show();
-
-				if ($sucesso) {
-					$('#mensagem').html($mensagem);
-				} else {
-					$('#mensagem').html($mensagem);
-				}
-			}
-		});
-	}
-</script>

@@ -20,6 +20,8 @@
             $retorno["sucesso"] = false;
             $retorno["mensagem"] = "Houve um erro. Tente mais tarde !!";
         }
+
+        echo json_encode($retorno);
     }
 
 ?>

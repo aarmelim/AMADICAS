@@ -167,7 +167,7 @@
 	<!-- End Story Area -->
 
 	<!-- Start Subscription Area -->
-	
+	<?php require_once("email_subscription.php"); ?>
 	<!-- End Subscription Area -->
 
 	<!-- Start Contact Form -->
@@ -186,6 +186,8 @@
 	<script src="js/jquery.nice-select.min.js"></script>
 	<script src="js/jquery.magnific-popup.min.js"></script>
 	<script src="js/main.js"></script>
+	<script	src="js/vendor/jquery.js"></script>
+	<script src="js/outros/inserir_email.js"></script>
 </body>
 
 </html>
