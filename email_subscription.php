@@ -4,7 +4,7 @@
 			<div class="col-lg-6">
 				<div class="section-title">
 					<h3>Deixe seu email</h3>
-					<span>Vou te avisar quando incluir novas dicas no site. Pode ser?</span>
+					<span>Vou te avisar quando incluir novas dicas aqui.</span>
 				</div>
 			</div>
 			<div class="col-lg-6">

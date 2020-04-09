@@ -1,1 +1,0 @@
-<?php require_once("pagina_em_construcao.php"); ?>

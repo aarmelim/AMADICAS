@@ -8,7 +8,7 @@
 		<!-- Author Meta -->
 		<meta name="author" content="AMADICAS - Adriano Mantovani Armelim">
 		<!-- Meta Description -->
-		<meta name="description" content="">
+		<meta name="description" content="AMADICAS - Dicas de livros, filmes, documentários, podcasts e outros">
 		<!-- Meta Keyword -->
 		<meta name="keywords" content="Dicas de Livros, Livros, Sugestões de livros, Podcasts, Sugestão de podecasts, Dicas de podcasts, Filmes, Sugestão de filmes, Dicas de filmes,">
 		<!-- meta character set -->
@@ -81,7 +81,7 @@
 								<div class="remark-desc">
 									<h4>Trilhas e montanhas</h4>
 									<p>As trilhas e expedições que participei, os aprendizados e as dicas.</p>
-									<a href="trilhas_e_montanhas" class="primary-btn"><span>Veja aqui as dicas de trilhas</span></a>
+									<a href="trilhas-e-montanhas" class="primary-btn"><span>Veja aqui as dicas de trilhas</span></a>
 								</div>
 							</div>
 						</div>
