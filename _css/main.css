@@ -1920,7 +1920,7 @@ body {
 .main-wrapper-first {
   width: 68.75%;
   margin: 0 auto;
-  margin-top: 6rem;
+  margin-top: 1rem;
 }
 
 @media (min-width: 1200px) {
@@ -1937,7 +1937,7 @@ body {
 
 @media (max-width: 767px) {
   .main-wrapper-first {
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 97%;
   }
 }
