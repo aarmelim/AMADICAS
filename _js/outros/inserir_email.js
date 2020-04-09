@@ -8,7 +8,7 @@ function inserirEmail(dados) {
     $.ajax({
         type: "POST",
         data: dados.serialize(),
-        url: "inserir_email.php",
+        url: "inserir_email.php" + location.search,
         async: false
     }).done (function(data){
             $sucesso = $.parseJSON(data)["sucesso"];

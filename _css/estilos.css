@@ -6,3 +6,6 @@ ul.list-unstyled{
     padding-bottom: 10px;   /*espaçamento entre imagens da lista de livros */
 }
 
+#link-comum{
+    color: rgb(46, 30, 92);
+}
