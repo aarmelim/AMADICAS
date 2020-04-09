@@ -20,13 +20,13 @@
 	<!-- Mobile Specific Meta -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<!-- Favicon-->
-	<link rel="shortcut icon" href="_img/fav.png">
+	<link rel="shortcut icon" href="img/fav.png">
 	<!-- Author Meta -->
-	<meta name="author" content="CodePixar">
+	<meta name="author" content="AMADICAS - Adriano Mantovani Armelim">
 	<!-- Meta Description -->
-	<meta name="description" content="Dicas de livros que tenho lido ao longo dos últimos anos, detalhes de livros, downloads de livros, resenhas de livros, sugestão de livros para leitura">
+	<meta name="description" content="Dicas de livros que tenho lido ao longo dos últimos anos, resenhas de livros, downloads de livros, resenhas de livros, sugestão de livros para leitura">
 	<!-- Meta Keyword -->
-	<meta name="keywords" content="">
+	<meta name="keywords" content="Dicas de Livros, Livros, Sugestões de livros, Podcasts, Sugestão de podecasts, Dicas de podcasts, Filmes, Sugestão de filmes, Dicas de filmes,">
 	<!-- meta character set -->
 	<meta charset="UTF-8">
 	<!-- Site Title -->

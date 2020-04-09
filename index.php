@@ -6,11 +6,11 @@
 		<!-- Favicon-->
 		<link rel="shortcut icon" href="img/fav.png">
 		<!-- Author Meta -->
-		<meta name="author" content="CodePixar">
+		<meta name="author" content="AMADICAS - Adriano Mantovani Armelim">
 		<!-- Meta Description -->
 		<meta name="description" content="">
 		<!-- Meta Keyword -->
-		<meta name="keywords" content="">
+		<meta name="keywords" content="Dicas de Livros, Livros, Sugestões de livros, Podcasts, Sugestão de podecasts, Dicas de podcasts, Filmes, Sugestão de filmes, Dicas de filmes,">
 		<!-- meta character set -->
 		<meta charset="UTF-8">
 		<!-- Site Title -->
@@ -40,7 +40,7 @@
 						<div class="col-lg-6">
 							<div class="section-title text-center">
 								<h2>Vamos as dicas</h2>
-								<p>Tenho várias já prontas e vou tentar acrescentando outras ao longo do tempo.</p>
+								<p>Tenho várias já prontas e vou acrescentando outras ao longo do tempo.</p>
 							</div>
 						</div>
 					</div>
@@ -51,9 +51,9 @@
 							</div>
 							<div class="col-lg-7 col-md-6">
 								<div class="remark-desc">
-									<h4>Filmes e documentários</h4>
+									<h4>Filmes, Séries e documentários</h4>
 									<p>Filmes e Documentários para download, e algumas poucas séries que vi e recomendo.</p>
-									<a href="filmes" class="primary-btn"><span>Clique aqui</span></a>
+									<a href="filmes" class="primary-btn"><span>Veja aqui as dicas de filmes</span></a>
 								</div>
 							</div>
 						</div>
@@ -81,7 +81,7 @@
 								<div class="remark-desc">
 									<h4>Trilhas e montanhas</h4>
 									<p>As trilhas e expedições que participei, os aprendizados e as dicas.</p>
-									<a href="trilhas_e_montanhas" class="primary-btn"><span>Clique aqui</span></a>
+									<a href="trilhas_e_montanhas" class="primary-btn"><span>Veja aqui as dicas de trilhas</span></a>
 								</div>
 							</div>
 						</div>
@@ -95,7 +95,7 @@
 								<div class="remark-desc">
 									<h4>PodCasts</h4>
 									<p>O que escuto quando estou na academia, passeando com o Chico (meu cachorro), lavando louça, etc...</p>
-									<a href="podcasts" class="primary-btn"><span>Clique aqui</span></a>
+									<a href="podcasts" class="primary-btn"><span>Veja aqui as dicas de podcasts</span></a>
 								</div>
 							</div>
 
@@ -105,53 +105,6 @@
 			</section>
 			<!-- End Remarkable Wroks Area -->
 
-			<!-- Start Feature Area 
-			<section class="featured-area">
-				<div class="container">
-					<div class="row justify-content-center">
-						<div class="col-lg-6">
-							<div class="section-title text-center">
-								<h2 class="text-white">Outras dicas</h2>
-								<p class="text-white">Outras dicas abaixo nas quais ainda estou trabalhando para um futuro incerto. rs!!</p>
-							</div>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4">
-							<div class="single-feature">
-								<div class="thumb" style="background: url(img/t1.jpg);"></div>
-								<div class="desc text-center mt-30">
-									<h4 class="text-white">Creative Design</h4>
-									<p class="text-white">Few would argue that, despite the advancements of feminism over the past three decades, women still face a double</p>
-									<a href="#" class="primary-btn"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="single-feature">
-								<div class="thumb" style="background: url(img/t2.jpg);"></div>
-								<div class="desc text-center mt-30">
-									<h4 class="text-white">Appropriate UX</h4>
-									<p class="text-white">There are advances being made in science and technology everyday, and a good example of this is the LCD monitor. LCD </p>
-									<a href="#" class="primary-btn"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4">
-							<div class="single-feature">
-								<div class="thumb" style="background: url(img/t3.jpg);"></div>
-								<div class="desc text-center mt-30">
-									<h4 class="text-white">Super Clean Code</h4>
-									<p class="text-white">Sony laptops are among the most well known laptops on today’s market. Sony is a name that over time has established itself</p>
-									<a href="#" class="primary-btn"><span>Read More</span></a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</section>-->
-			<!-- End Feature Area -->
-			
 			<!-- Start Story Area -->
 			<?php require_once("section_instagram.php"); ?>
 			<!-- End Story Area -->
