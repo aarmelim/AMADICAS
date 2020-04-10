@@ -2083,7 +2083,6 @@ body {
   right: 0;
   width: 50%;
   height: 90%;
-  /* background: url(../img/cadeiras.jpg) no-repeat bottom right/contain; */ */
   z-index: 2;
 }
 
@@ -2280,7 +2279,7 @@ body {
   right: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/montanha.jpg) no-repeat center center/cover;
+  background: url(../_img/montanha.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
